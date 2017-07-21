@@ -1,0 +1,38 @@
+<html>
+    <body bgcolor="#777799">
+	<center>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Agenda</h2>
+        </div>
+ 
+        <div class="row marketing">
+            <div class="col-lg-6">
+				<table>
+					<tr>
+						<th>No.</th>
+						<th>Event</th>
+						<th>Time</th>
+						<th>Who</th>
+						<th>Description</th>
+					</tr>
+
+					{% for row in range(agenda) %}
+					<tr>
+						{% for column in range(6) %}
+						<td> {{ agenda_items[row][column] }} </td>
+						{% endfor %}
+					</tr>
+					{% endfor %}
+				</table>
+            </div>
+        </div>
+        <footer class="footer">
+			<p><h4><a href="/">Home</a></h4>
+            <p>&copy; Compuglobalhypermeganet 2017</p>
+        </footer>
+    </div> 	
+ 
+	</center>
+    </body>
+    </html>

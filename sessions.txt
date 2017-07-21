@@ -1,0 +1,4 @@
+1,Keynote,08:00,Clive,I promise! This time I will be gentle
+2,What's new in VMAX,09:00,Alberto,Learn about the new VMAX 950 and the Cypress code
+3,Isilon and friends,10:00,Rob,Fox Studios case study: Isilon, ECS and VxRail
+4,14G servers:the final generation,11:00,Aruna, Phil and Michael,Deep look at the server line that will power the next wave of digital transformation

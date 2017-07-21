@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Event survey</title>
+    </head>
+    <body bgcolor="#777799">
+		<center>
+		<h1>Event Survey</h1>
+
+		<hr>
+
+		<form method="post" action="{{ url_for('suthankyou') }}">
+			<h2>Feedback</h2>
+			<h4>Select your Division:</h4>
+			<input type="radio" name="division" value="Enterprise" checked>Enterprise
+			<input type="radio" name="division" value="Commercial">Commercial<br>
+			
+			<p>
+			
+			<h4>Select your region in ANZ:</h4>
+			<input list="state" name="state">
+				<datalist id="state">
+				<option value="Australian Capital Territory">
+				<option value="New South Wales">	
+				<option value="Queensland/Northern Territory">
+				<option value="South Australia/Western Australia">
+				<option value="Victoria/Tasmania">
+				<option value="New Zealand">	
+				</datalist>
+				
+			<p>
+			<h4>Enter your feedback:</h4>
+			<textarea name="feedback" rows="10" cols="30"></textarea>
+			
+			<p>
+
+		  <input type="submit" value="Submit"/>
+		</form>
+		<hr>
+		<footer class="footer">
+			<p><h4><a href="/">Home</a></h4>
+            <p>&copy; Compuglobalhypermeganet 2017</p>
+        </footer>
+		</body>
+</html>
+ 
