@@ -82,7 +82,8 @@ def mainmenu():
             <p>&copy; Compuglobalhypermeganet 2017</p>
         </footer>
     </div>    
-    </center>
+    <font size=1><a href="/dumpsurveys">Dump Surveys</a></font>
+	</center>
     </body>
     </html>
     """.format(COLOR,my_uuid,)
