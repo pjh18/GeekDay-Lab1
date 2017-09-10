@@ -19,10 +19,10 @@ if 'VCAP_SERVICES' in os.environ:
 else:
     r = redis.Redis(host='192.168.112.128', port='6379')
 
-## r = redis.Redis(host='redis-11762.c14.us-east-1-2.ec2.cloud.redislabs.com', port='11762', password='FJkK7k6uRB9YXogd')
+## r = redis.Redis(host='redis-11762.c14.us-east-1-2.ec2.cloud.redislabs.com', port='11762', password='nope')
 
 ecs_access_key_id = '131411953564759516@ecstestdrive.emc.com'  
-ecs_secret_key = 'UVBcsylBl7QIj65LXv7xIX6llCkI9E+WnTC9X/6a'
+ecs_secret_key = 'nope'
 
 session = boto.connect_s3(ecs_access_key_id, ecs_secret_key, host='object.ecstestdrive.com')  
 ## Get hold of your bucket
